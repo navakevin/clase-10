@@ -6,4 +6,13 @@
 
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-size: 45px;
+}
+
+h1:hover{
+    color: cadetblue;
+    text-decoration: underline;
+    transition: .5s;
+    transform: skew(-45deg);
 }
